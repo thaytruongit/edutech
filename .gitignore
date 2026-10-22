@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.*
+*.log
+
+# Dữ liệu chạy thật (không đưa lên git)
+backend/uploads/
+backend/data/
+backend/database/*.db
+backend/database/*.db-shm
+backend/database/*.db-wal
+
+# Khóa/credentials
+*service-account*.json
+*credentials*.json
